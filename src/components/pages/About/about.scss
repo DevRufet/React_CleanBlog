@@ -1,0 +1,55 @@
+#hero_clean{
+    max-width: 100%;
+    min-height: 472px;
+    
+    
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/about-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+#hero_about{
+    max-width: 100%;
+    min-height: 458px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid grey;
+}
+.hero_about_container{
+    max-width: 1320px;
+    min-height: 458px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+// section start
+.hero_about_container_p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 694px;
+    height: 90px;
+}
+// section end
+// section responsive
+@media only screen and (max-width: 400px){
+    .hero_about_container_p{
+        font-size: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 300px;
+        height: 90px;
+    }
+}
+// section responsive end

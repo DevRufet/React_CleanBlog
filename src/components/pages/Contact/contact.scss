@@ -1,0 +1,170 @@
+#hero_contact{
+    
+    max-width: 100%;
+    min-height: 472px;
+    
+    
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/contact-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+//  section hero_contact start
+#hero_contact_about{
+max-width: 100%;
+min-height: 831px;
+border-bottom: 1px solid gray;
+}
+.hero_contact_about_container{
+max-width: 1320px;
+min-height: 831px;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.hero_contact_form{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 694px;
+min-height: 600px;
+
+}
+.hero_contact_about_container_p{
+width: 694px;
+height: 60px;
+font-size: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero_contact_form_name{
+width: 694px;
+min-height: 72px;   
+border-bottom: 1px solid grey;
+
+}
+.hero_contact_form_email{
+width: 694px;
+min-height: 72px;
+border-bottom: 1px solid grey;
+}
+.hero_contact_form_phone{
+width:694px;
+min-height: 72px;
+border-bottom: 1px solid grey;
+}
+.hero_contact_form_area{
+width: 694px;
+min-height: 192px;
+border-bottom: 1px solid grey;
+}
+.hero_contact_btn{
+margin-top: 40px;
+margin-right: 590px;
+width: 100px;
+height: 50px;
+background-color:rgb(8, 157, 124);
+color:#FFFFFF;
+font-size: large;
+}
+.hero_contact_btn:hover{
+transition: 0.5s;
+background-color: aquamarine;
+cursor: pointer;
+}
+form{
+input:hover{
+    border: 3px solid pink;
+    transition: 0.5s;
+}
+textarea:hover{
+    border: 3px solid pink;
+    transition: 0.5s;
+}
+}
+// section hero_contact end
+// section hero_contat responsive start
+@media only screen and (max-width: 400px){
+.hero_contact_about_container{
+    max-width: 320px;
+    min-height: 831px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero_contact_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    min-height: 600px;
+    
+}
+.hero_contact_about_container_p{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero_contact_form_name{
+    width: 300px;
+    min-height: 72px;   
+    border-bottom: 1px solid grey;
+    
+}
+.hero_contact_form_email{
+    width: 300px;
+    min-height: 72px;
+    border-bottom: 1px solid grey;
+}
+.hero_contact_form_phone{
+    width:300px;
+    min-height: 72px;
+    border-bottom: 1px solid grey;
+}
+.hero_contact_form_area{
+    width: 300px;
+    min-height: 92px;
+    border-bottom: 1px solid grey;
+}
+.hero_contact_btn{
+    margin-top: 70px;
+    margin-right: 0px;
+    width: 100px;
+    height: 50px;
+    background-color:rgb(8, 157, 124);
+    color:#FFFFFF;
+    font-size: large;
+}
+.hero_contact_btn:hover{
+    transition: 0.5s;
+   background-color: aquamarine;
+    cursor: pointer;
+}
+form{
+    input:hover{
+        border: 3px solid pink;
+        transition: 0.5s;
+    }
+    textarea:hover{
+        border: 3px solid pink;
+        transition: 0.5s;
+    }
+}
+}
+// section hero_contact responsive end

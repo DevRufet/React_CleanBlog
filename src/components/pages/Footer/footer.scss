@@ -1,0 +1,46 @@
+#hero_social{
+    max-width: 100%;
+    min-height: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.hero_social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+}
+.social_icon{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.social_social:hover{
+    color:#0a4e5c;
+}
+.social_social{
+    color: black;
+}
+.social_icon:hover{
+    background-color: #0a4e5c;
+    transition: 1s;
+    cursor: pointer;
+}
+.hero_social_about{
+    color: grey;
+}
+// footer responsive start
+
+
+// footer responsive end 
