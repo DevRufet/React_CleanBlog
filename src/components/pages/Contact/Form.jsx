@@ -25,7 +25,7 @@ function Form() {
                 Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!
 
                 </div>
-               <form action="" class="hero_contact_form">
+               <form action="" className="hero_contact_form">
                 <input type="text" placeholder="Name" className="hero_contact_form_name"/>
                  <input type="text" placeholder="Email Address" className="hero_contact_form_email"/>
                  <input type="text" placeholder="Phone Number" className="hero_contact_form_phone"/>

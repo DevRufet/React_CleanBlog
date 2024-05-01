@@ -20,7 +20,7 @@ function Navbar() {
              </div>
              <button className="container_btn">
                 MENU
-                <i class="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
              </button>
             </div>
         </nav>
